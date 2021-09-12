@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/TrustedSkuola/MobileBulkChecker/issues"
   },
-  "homepage": "https://github.com/TrustedSkuola/MobileBulkChecker#readme"
+  "homepage": "https://github.com/TrustedSkuola/MobileBulkChecker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
 }
