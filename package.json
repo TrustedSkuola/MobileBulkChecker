@@ -1,0 +1,21 @@
+{
+  "name": "MobileBulkChecker",
+  "version": "1.0.0",
+  "description": "Node script that uses the SearchConsole API to check if a page is mobile friendly",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrustedSkuola/MobileBulkChecker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrustedSkuola/MobileBulkChecker/issues"
+  },
+  "homepage": "https://github.com/TrustedSkuola/MobileBulkChecker#readme"
+}
