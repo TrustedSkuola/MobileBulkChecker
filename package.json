@@ -22,6 +22,7 @@
   "homepage": "https://github.com/TrustedSkuola/MobileBulkChecker#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
   }
 }
