@@ -4,7 +4,7 @@ require('esm')(module /*, options*/);
 
 import fetch from "node-fetch";
 
-async function callMobileFriendlyApi(data = {}) {
+async function callMobileFriendlyApi(apiKey, data = {}) {
 
   const apiURL = "https://searchconsole.googleapis.com/v1/urlTestingTools/mobileFriendlyTest:run?key="+apiKey
   
@@ -31,7 +31,7 @@ export function cli(args) {
     process.exit()
   }
   
-  callMobileFriendlyApi({
+  callMobileFriendlyApi(apiKey,{
     "url": urlToCheck,
     "requestScreenshot": false
     }).then(data => {

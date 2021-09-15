@@ -4,7 +4,7 @@
   "description": "Node script that uses the SearchConsole API to check if a page is mobile friendly",
   "main": "src/index.js",
   "bin": {
-    "MobileBulkChecker": "bin/MobileBulkChecker"
+    "MobileBulkChecker": "bin/MobileBulkChecker.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/TrustedSkuola/MobileBulkChecker#readme",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25"
   }
 }
